@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"named_parameters": true,
+	"parameters": [
+		{
+			"id": "WfS9YQpHlztNRmWq",
+			"name": "Skip Build Test",
+			"param_name": "skip_test",
+			"type": "text",
+			"value_type": "string",
+			"default_value": "False",
+			"required": true
+		}
+	]
+}

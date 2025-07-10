@@ -1,7 +1,7 @@
 environment_version: 1
 credentials:
 - type: api-key
-  id: QDSpYKgNMbbl8bip
+  id: rVhc15rp5XsYmoFg
   description: DANDI API key
   key: DANDI_API_KEY
   secret: DANDI_API_KEY
