@@ -3,6 +3,7 @@ set -ex
 
 cp -r ./* ../scratch/
 
+
 SKIP_TEST=false
 for arg in "$@"; do
   case "$arg" in
@@ -12,6 +13,7 @@ for arg in "$@"; do
       ;;
   esac
 done
+
 
 if [ "$SKIP_TEST" != true ]; then
     pytest --nbmake --nbmake-timeout=8000 -n=auto "../scratch/embargoed"
